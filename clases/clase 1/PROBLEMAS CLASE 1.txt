@@ -1,0 +1,79 @@
+PROBLEMA 1 a)
+public static void main(String[] args) {
+        int numeroInicio = 5;
+        int numeroFin = 14;
+        
+        
+        while(numeroInicio<=numeroFin){
+            
+             System.out.println(numeroInicio++);
+            
+        }
+}
+
+PROBLEMA 1 b)
+public static void main(String[] args) {
+        int numeroInicio = 5;
+        int numeroFin = 14;
+        
+        
+        while(numeroInicio<=numeroFin){
+            
+            if(numeroInicio%2==0){
+             System.out.println(numeroInicio);
+            }
+            numeroInicio++;
+        }
+}
+
+
+PROBLEMA 1 c)
+public class JavaApplication1 {
+
+    public static void main(String[] args) {
+        int numeroInicio = 5;
+        int numeroFin = 14;
+        int parImpar = 1;     
+        
+        while(numeroInicio<=numeroFin){
+            
+            if(numeroInicio%2==parImpar){
+             System.out.println(numeroInicio);
+          }
+            numeroInicio++;  
+}}}
+
+PROBLEMA 1 d)
+
+public class JavaApplication1 {
+
+    public static void main(String[] args) {
+       
+    int numeroInicio;
+    int numeroFin;
+        
+        for(numeroFin=14;numeroFin>5;numeroFin--){
+        if(numeroFin%2==0)
+        {
+             System.out.println(numeroFin);
+            }
+        }}}
+
+
+
+PROBLEMA 2
+public static void main(String[] args) {
+       
+    int ingresosTotalesMensuales =1000;
+    int vehiculosConMenos5años=1;
+    int numeroInmuebles=1;
+    boolean embarcacion_aeronave_activosSocietarios=false;
+    
+    if(ingresosTotalesMensuales>=489083||vehiculosConMenos5años>=3||numeroInmuebles>=3||embarcacion_aeronave_activosSocietarios){
+        System.out.println("Usted pertenece al Segmento de ingresos altos");
+    }
+      else{System.out.println("Usted es pobre");
+        }
+        
+           
+    }
